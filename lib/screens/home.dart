@@ -61,11 +61,19 @@ class _HomeState extends State<Home> {
   }
 
   Widget _purchaseIAPButton(String buttonName, String productKey) {
-    return ElevatedButton(onPressed: () {}, child: Text(buttonName));
+    return ElevatedButton(
+        onPressed: () {
+          // here we subscripe or buy products
+        },
+        child: Text(buttonName));
   }
 
   Widget _restorePurchases(String text) {
-    return ElevatedButton(onPressed: () {}, child: Text(text));
+    return ElevatedButton(
+        onPressed: () {
+          // here are restored products
+        },
+        child: Text(text));
   }
 
   Widget _divider(double height) {
